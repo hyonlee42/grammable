@@ -10,6 +10,7 @@ FactoryBot.define do
 
   factory :gram do
     message { "hello" }
+    picture {"path to something.jpg"}
     association :user
   end
 end
